@@ -63,12 +63,12 @@ So the representation looks something like this
 |-------|----------|-------|
 | 16^2  | 16^1     | 16^0  |
 | 0     | 7        | 11    |
-| 123-0 | 123-16*7 | 11-11 |
+| 123-0 | 123-16 x 7 | 11-11 |
 
 
 Now, again, in base 10, haveing a number > 9 in any spot does not make any sense. But we can think of it as:
 
-7*16^1 + 11*16^0 = 123 in base 10
+7 x 16^1 + 11 x 16^0 = 123 in base 10
 
 Now, there's a little trick in computer science. We call base 16 "hexadecimal" hexa meaning 6, decimal meaning 10. The numbers in decimals go 
 
