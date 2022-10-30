@@ -34,3 +34,6 @@ So if were were to change 123 into base 2, what would we do?
 | 2^6    | 2^5   | 2^4   | 2^3  | 2^2 | 2^1 | 2^0 |
 | 64     | 32    | 16    | 8    | 4   | 2   | 1   |
 | 123-64 | 59-32 | 27-16 | 11-8 | 3-0 | 3-2 | 1-1 |
+
+
+So now you have a general idea. Essentially you take the largest power continually subtract values.
