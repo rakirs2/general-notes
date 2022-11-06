@@ -50,6 +50,12 @@ code fileToOpen.py
 ```
 
 
+### show everything in a directory
+
+### run an executable (python, java, code w/e)
+```$zsh
+ls
+```
 
 
 
