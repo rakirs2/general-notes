@@ -1,0 +1,93 @@
+\documentclass[10pt]{article}
+\usepackage{fullpage}
+\usepackage{amsmath,amsfonts,amsthm}
+
+% these are compressed lists to help fit into a 1 page limit
+\newenvironment{enumerate*}%
+  {\vspace{-2ex} \begin{enumerate} %
+     \setlength{\itemsep}{-1ex} \setlength{\parsep}{0pt}}%
+  {\end{enumerate}}
+ 
+\newenvironment{itemize*}%
+  {\vspace{-2ex} \begin{itemize} %
+     \setlength{\itemsep}{-1ex} \setlength{\parsep}{0pt}}%
+  {\end{itemize}}
+ 
+\newenvironment{description*}%
+  {\vspace{-2ex} \begin{description} %
+     \setlength{\itemsep}{-1ex} \setlength{\parsep}{0pt}}%
+  {\end{description}}
+
+\DeclareMathOperator*{\E}{\mathbb{E}}
+\let\Pr\relax
+\DeclareMathOperator*{\Pr}{\mathbb{P}}
+
+\newcommand{\inprod}[1]{\left\langle #1 \right\rangle}
+\newcommand{\eqdef}{\mathbin{\stackrel{\rm def}{=}}}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+
+
+% intersection
+
+% union
+
+% difference
+
+% subset
+
+% proper subset
+
+% set laws w/ empty sets
+
+% Associative laws
+
+% distributive laws
+
+% absorption laws
+
+% demorgan's laws
+
+% venn diagram, universe/ complement
+
+% disjoint
+
+% partition
+
+% pairwise disjoint
+
+% cardinality
+
+% countable, uncountable
+\author{Srikar Mylavarapu}
+\title{Set Theory Introduction}
+
+\begin{document}
+
+\maketitle
+
+Here is a theorem with proof.
+
+\begin{theorem}
+A set is a collection of distinguishable elements. The elements are called either members or elements
+\end{theorem}
+
+
+\begin{proof}
+For the sake of contradiction suppose $\sqrt{2}$ is rational. Write $\sqrt{2} = a/b$ with $a,b$ positive integers with gcd $1$. Then $2 = a^2/b^2$, so $a = 2k$ is even. Then $2 = 4k^2/b^2$ so that $b = 2k^2$, implying $b$ is even. This contradicts that $a,b$ have gcd $1$.
+\end{proof}
+
+Some random facts in a list:
+
+\begin{itemize*}
+\item Compared with the ``itemize'' environment in \LaTeX, itemize$^*$ has smaller separation between bullet points.
+\item The $n$th Catalan number is $C_n \eqdef \frac{1}{n+1} \binom{2n}{n}$.
+\item If $\pi(x)$ is the number of primes less than or equal to $x$, then
+$$\lim_{x\rightarrow\infty} \frac{\pi(x)}{x/\ln(x)} = 1 . $$
+\item $$ \sum_{\substack{1\le i\le 2n\\i\ \mathrm{even}}} i = \frac{2n(n+1)}2 .$$
+\end{itemize*}
+
+Have fun on your problem sets.
+
+\end{document}
