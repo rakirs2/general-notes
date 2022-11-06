@@ -49,11 +49,16 @@ code fileToOpen.py
 
 
 ### show everything in a directory
-
-### run an executable (python, java, code w/e)
 ```$zsh
 ls
 ```
 
+### make a file executable
+```$zsh
+chmod 755 YourScriptName.sh
+```
 
+```$zsh
+chmod u+x /location/**/*.sh
+```
 
