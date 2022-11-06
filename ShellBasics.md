@@ -1,6 +1,10 @@
 # Shell Basics
 
-## If its the same, then its the same. otherwise order is zsh/linux and then powershell
+## Tiny Helpers
+- TAB will attempt to autocomplete
+- &uarr; will bring up history/last used command
+
+## Commands If its the same, then its the same. otherwise order is zsh/linux and then powershell
 
 ### Print a value to the console
 ```$zsh
