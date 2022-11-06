@@ -41,11 +41,9 @@ filename.sh
 
 
 ### run an executable (python, java, code w/e)
+
 ```$zsh
 executableName parametername
-
-#For Example
-
 code fileToOpen.py
 ```
 
