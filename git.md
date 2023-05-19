@@ -14,3 +14,8 @@ git push
 ```git rev-parse HEAD```
 ## git clean
 ```-dfx ```
+
+## Revert a single file back to state on a different brance
+```git checkout <branchThatHasTheStateYouWant> <full-path-to-file>\file.txt
+git checkout main <full-path-to-file>\file.txt
+```
