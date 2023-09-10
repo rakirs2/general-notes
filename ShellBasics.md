@@ -24,6 +24,12 @@ New-Item [-Path] <path>
 ```
 mkdir folderName
 ```
+
+### delete a folder
+https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/remove-item?view=powershell-7.3
+```
+Remove-Item -LiteralPath "foldertodelete" -Force -Recurse
+```
 ### Go down one folder level
 
 ```$zsh
