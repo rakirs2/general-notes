@@ -20,6 +20,10 @@ touch filename
 New-Item [-Path] <path>
 ```
 
+### create a folder
+```
+mkdir folderName
+```
 ### Go down one folder level
 
 ```$zsh
