@@ -1,4 +1,12 @@
-## general git flow
+# general git flow
+
+## downloading
+Go to location where you want the file downloaded
+```
+git clone "https.... reponame.git
+```
+
+## Updateing
 ```
 git pull 
 git add filenameToAdd
