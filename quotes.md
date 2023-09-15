@@ -1,4 +1,4 @@
-# Quotes to live by
+# Quotes
 
 "We don't transfer, we compete"
 
