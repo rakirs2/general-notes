@@ -32,4 +32,7 @@ I actually started off majoring in computer science, but I knew right away I was
 -- JCole
 
 Levantarme y volver a intentarlo, y volver a estar otra vez. Creo que esa es la vida. Tropezar, volver a levantarse y a intentarlo otra vez, y luchar por tu sueño.
--- Messi![image](https://github.com/rakirs2/general-notes/assets/15315770/caa5ca1b-ebba-4714-b759-04c451270b43)
+-- Messi
+
+"I feel like 1 year in the medical profession is equal to 5 years of regular life"
+-- Deena Kapadia
